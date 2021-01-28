@@ -7,10 +7,10 @@ public class ShapeMain {
             return;
         }
         try {
-
             RegularShapeType type = RegularShapeType.valueOf(args[0]);
+            System.out.print("A");
             Shape shape = ShapeFactory.create(type);
-            
+            System.out.print("B");
             System.out.println(String.format("Successfully created a %s with %s sides.", type, shape.getNumberOfEdges()));
 
         } catch (IllegalArgumentException ex) {
