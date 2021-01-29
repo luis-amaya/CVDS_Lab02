@@ -1,9 +1,10 @@
 # CVDS_Lab02
 
-## La herramienta Mave:
-Cuál es su mayour utilidad: simplificar los precesos de build ( compilar y.generar ejecutables a partir del código fuente).
+## La herramienta Maven:
+
+Cuál es su mayor utilidad: simplificar los procesos de build ( compilar y.generar ejecutables a partir del código fuente).
 Maven es una herramienta capaz de gestionar un proyecto software completo, desde la etapa en la que se comprueba que el código es correcto, hasta que se despliega la aplicación, pasando por la ejecución de pruebas y generación de informes y documentación.
-Fases de maven:
+Fases de Maven:
 - Validación (validate): Validar que el proyecto es correcto.
 - Compilación (compile).
 - Test (test): Probar el código fuente usando un framework de pruebas unitarias.
@@ -23,7 +24,7 @@ prueba de compilación: compilar el código fuente de prueba
 6. instalar: instalar el paquete a un repositorio local
 Implementar: copiar el paquete al repositorio remoto
 
-## Para qué sirven los plugins: 
+## ¿Para qué sirven los plugins?: 
 Maven es en realidad un marco de ejecución de complementos en el que cada tarea se realiza mediante complementos. Los complementos de Maven generalmente se usan para:
 * crear archivo jar
 * crear archivo de guerra
@@ -37,7 +38,7 @@ Un complemento generalmente proporciona un conjunto de objetivos, que se pueden 
 Por ejemplo, un proyecto de Java se puede compilar con el objetivo de compilación de maven-compiler-plugin ejecutando el siguiente comando.
 **mvn compiler:compile**
 
-## Que es y para qué sirve el repositorio central de Maven: 
+## ¿Qué es y para qué sirve el repositorio central de Maven?: 
 El repositorio central de Maven es un repositorio proporcionado por la comunidad de Maven. Contiene una gran cantidad de bibliotecas de uso común.
 Cuando Maven no encuentra ninguna dependencia en el repositorio local, comienza a buscar en el repositorio central utilizando la siguiente 
 [Repositorio Central]: https://repo1.maven.org/maven2/
@@ -47,12 +48,12 @@ Cuando Maven no encuentra ninguna dependencia en el repositorio local, comienza 
 * No es necesario configurarlo.
 * Requiere acceso a Internet para ser buscado.
 
-Para navegar por el contenido del repositorio central de maven, la comunidad de maven ha proporcionado una [URL]: https://search.maven.org/#browse 
+Para navegar por el contenido del repositorio central de Maven, la comunidad de Maven ha proporcionado una [URL]: https://search.maven.org/#browse 
 
 Con esta biblioteca, un desarrollador puede buscar todas las bibliotecas disponibles en el repositorio central.
 
 ## Ejercicio de las Figuras
-1. Buscar cómo se crea un proyecto maven con ayuda de los arquetipos (archetypes):
+1. Buscar cómo se crea un proyecto Maven con ayuda de los arquetipos (archetypes):
     - Crear una nueva carpeta, puede ser en Documents llamada proyecto_maven.
     En la terminal, ubicarse en la carpeta /home/desarrollo/Documents/proyecto_maven.
     Ejecutar el siguiente comando en la terminal. Creará la estructura de carpetas y archivos del proyecto.
